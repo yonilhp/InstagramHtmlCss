@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Example</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        .post {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .post-header, .post-icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .post-icons i {
+            margin-right: 10px;
+        }
+        .post-icons i:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="post">
+            <div class="post-header">
+                <div class="d-flex align-items-center">
+                    <img src="https://via.placeholder.com/50" alt="profile" class="rounded-circle me-2">
+                    <div>
+                        <strong>HTML5</strong><br>
+                        <small class="text-muted">Rigoberto</small>
+                    </div>
+                </div>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="post-img mt-3">
+                <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="post image">
+            </div>
+            <div class="post-icons mt-3">
+                <div>
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <i class="far fa-bookmark"></i>
+            </div>
+            <div class="post-body mt-3">
+                <p class="mb-1"><strong>4GeeksAcademy</strong>, HTML5, Web and 100,000 others liked this</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
