@@ -22,12 +22,18 @@
         .post-icons i {
             margin-right: 10px;
             padding: 10px;
+            font-size: 24px; /* Ajusta el tamaño del icono */
         }
         .post-icons i:last-child {
             margin-right: 0;
         }
+        .post-titulo {
+            padding: 10px;
+            margin-bottom: 0;
+        }
         .post-description {
             padding: 10px;
+            margin-top: 0;
         }
         .profile-info {
             display: flex;
@@ -35,6 +41,15 @@
         }
         .profile-info div {
             margin-left: 10px;
+        }
+        .post-header .fa-ellipsis-vertical {
+            font-size: 24px; /* Ajusta el tamaño del icono */
+            font-weight: bold; /* Aplica negrita */
+        }
+        .post-img img {
+            height: 300px; /* Establece la altura fija */
+            object-fit: cover; /* Asegura que la imagen se ajuste bien */
+            width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
         }
     </style>
 </head>
@@ -63,7 +78,7 @@
                 <i class="far fa-bookmark"></i>
             </div>
             <div class="post-body mt-1">
-                <p class="post-description mb-1"><strong>4GeeksAcademy</strong>, HTML5, Web and 100,000 others liked this</p>
+                <p class="post-titulo mb-1"><strong>4GeeksAcademy</strong>, HTML5, Web and 100,000 others liked this</p>
             </div>
             <div class="post-body mt-1">
                 <p class="post-description mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
