@@ -10,35 +10,45 @@
         .post {
             border: 1px solid #ddd;
             margin: 10px auto;
-            padding: 10px;
             max-width: 600px;
             width: 100%;
-
         }
         .post-header, .post-icons {
             display: flex;
+            padding: 10px;
             justify-content: space-between;
             align-items: center;
         }
         .post-icons i {
             margin-right: 10px;
+            padding: 10px;
         }
         .post-icons i:last-child {
             margin-right: 0;
+        }
+        .post-description {
+            padding: 10px;
+        }
+        .profile-info {
+            display: flex;
+            align-items: center;
+        }
+        .profile-info div {
+            margin-left: 10px;
         }
     </style>
 </head>
 <body>
     <div class="post">
         <div class="post-header">
-            <div class="d-flex align-items-center">
+            <div class="profile-info">
                 <img src="assets/html.png" alt="profile" class="rounded-circle me-2" width="50px" height="50px">
                 <div>
                     <strong>HTML5</strong><br>
                     <small class="text-muted">Rigoberto</small>
                 </div>
             </div>
-            <i class="fas fa-ellipsis-h"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>
         <div class="post-img mt-3">
             <img src="assets/image.jpg" class="img-fluid" alt="post image">
@@ -52,15 +62,14 @@
                 </div>
                 <i class="far fa-bookmark"></i>
             </div>
-            <div class="post-body mt-3">
-                <p class="mb-1"><strong>4GeeksAcademy</strong>, HTML5, Web and 100,000 others liked this</p>
+            <div class="post-body mt-1">
+                <p class="post-description mb-1"><strong>4GeeksAcademy</strong>, HTML5, Web and 100,000 others liked this</p>
             </div>
-            <div class="post-body mt-3">
-                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="post-body mt-1">
+                <p class="post-description mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
