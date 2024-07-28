@@ -1,0 +1,44 @@
+.post {
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+}
+.post-header, .post-icons {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-icons i {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 24px; /* Ajusta el tamaño del icono */
+}
+.post-icons i:last-child {
+    margin-right: 0;
+}
+.post-titulo {
+    padding: 10px;
+    margin-bottom: 0;
+}
+.post-description {
+    padding: 10px;
+    margin-top: 0;
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+.profile-info div {
+    margin-left: 10px;
+}
+.post-header .fa-ellipsis-vertical {
+    font-size: 24px; /* Ajusta el tamaño del icono */
+    font-weight: bold; /* Aplica negrita */
+}
+.post-img img {
+    height: 300px; /* Establece la altura fija */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
